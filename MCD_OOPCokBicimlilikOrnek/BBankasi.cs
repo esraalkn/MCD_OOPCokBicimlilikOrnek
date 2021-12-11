@@ -15,7 +15,7 @@ namespace MCD_OOPCokBicimlilikOrnek
         {
             AlisverisTutari -= AlisverisTutari * 0.05m;
             Console.WriteLine("%5 indirim uygulandı...");
-            Console.WriteLine("Ödenecek Tutar: ");
+            Console.WriteLine("Ödenecek Tutar: " + AlisverisTutari);
         }
     }
 }
